@@ -2,6 +2,7 @@
 
 def bubble_sort_by(arr)
     raise "no block" unless block_given?
+
     swap = -1
     while swap != 0
         swap = 0
@@ -11,7 +12,6 @@ def bubble_sort_by(arr)
                 swap += 1
             end
         end
-    end
-    
+    end    
     arr
 end
