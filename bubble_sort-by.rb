@@ -15,9 +15,7 @@ def bubble_sort_by(arr)
         end
 
     else
-        arr.sort
+        arr = "no block given"
     end
-    puts "--------------"
-    output = arr.join(", ")
-    puts "[#{output}]"
+    return arr
 end
