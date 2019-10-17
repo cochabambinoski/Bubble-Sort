@@ -34,6 +34,6 @@ Layout/ExtraSpacing:
 Layout/MultilineMethodCallIndentation:
   Enabled: true
   EnforcedStyle: indented
-Layout/EndAlignment:
-  EnforcedStyleAlignWith: variable
+Layout/IndentationWidth:
+  Enabled: false
   
