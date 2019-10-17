@@ -26,8 +26,6 @@ Style/ClassAndModuleChildren:
   Enabled: false
 Style/StringLiterals:
   EnforcedStyle: double_quotes
-Style/Tab:
-  Enabled: false
 
 Layout/AlignHash:
   EnforcedColonStyle: key
@@ -36,4 +34,6 @@ Layout/ExtraSpacing:
 Layout/MultilineMethodCallIndentation:
   Enabled: true
   EnforcedStyle: indented
+Layout/Tab:
+  Enabled: false
   
