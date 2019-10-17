@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 def bubble_sort_by(arr)
-    if block_given?
+    raise "no block" unless block_given?
         swap = -1
         while swap != 0
             swap = 0
@@ -11,9 +11,6 @@ def bubble_sort_by(arr)
                     swap += 1
                 end
             end
-        end
-    else
-        raise "no block"
-    end
+        end    
     arr
 end
