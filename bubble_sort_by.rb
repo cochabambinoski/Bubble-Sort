@@ -12,6 +12,6 @@ def bubble_sort_by(arr)
                 swap += 1
             end
         end
-    end    
+    end
     arr
 end
