@@ -3,7 +3,6 @@
 def bubble_sort_by(arr)
     if block_given?
         swap = -1
-        i = 0
         while swap != 0
             swap = 0
             (0..(arr.length - 2)).each do |i|
