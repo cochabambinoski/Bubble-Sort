@@ -13,7 +13,7 @@ def bubble_sort_by(arr)
             end
         end
     else
-        arr = "no block"
+        raise "no block"
     end
     arr
 end
