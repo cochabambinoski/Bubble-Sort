@@ -1,19 +1,20 @@
 # frozen_string_literal: true
+
 def bubble_sort_by(arr)
     if block_given?
         swap = -1
-        i=0
+        i = 0
         while swap != 0
             swap = 0
-            (i..(arr.length-2)).each do |i|   
+            (0..(arr.length - 2)).each do |i|
                 if yield(arr[i], arr[i + 1]).positive?
                     arr[i], arr[i + 1] = arr[i + 1], arr[i]
                     swap += 1
-                end    
+                end
             end
         end
     else
-        puts "no block"
+        arr = "no block"
     end
-    return arr
+    arr
 end
